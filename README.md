@@ -1,7 +1,7 @@
-EVENT_MANAGEMENT
-Next-Generation Event Management Platform
 
-Student Track – Gen AI Hackathon 2025 (HackWithHyderabad)
+ AI-Powered Tool for Combating Misinformation
+
+Student Track – Gen AI Hackathon 2025 
 
 🔗 Demo Link
 
