@@ -8,51 +8,42 @@ Student Track – Gen AI Hackathon 2025
 👉 Try the App  :   https://ai-powered-misinform-fr91.bolt.host
 
 📌 Problem
-
-Managing large-scale events (conferences, hackathons, college fests, workshops) is often manual, fragmented, and inefficient. Organizers struggle with registrations, scheduling, communication, and engagement — while attendees lack a smooth, interactive experience.
+The rapid spread of misinformation on digital platforms poses a serious risk to democracy, health, and public trust. Current solutions are either too slow, too complex, or not scalable.
 
 💡 Solution
-
-We built a Next-Generation Event Management Platform that simplifies planning, registration, and engagement using AI-powered personalization and a clean, minimal UI. The platform ensures seamless collaboration between organizers, participants, and sponsors.
+Our solution is an AI-powered dashboard that detects and tracks misinformation in real time. It uses machine learning to classify content, alerts users quickly, and displays trends through a simple, interactive interface. Built with a scalable architecture, it can process large data volumes across multiple platforms, helping curb misinformation, protect public trust, and enable faster responses.
 
 ✨ Features
 
-📝 Smart Registration – Easy signup with AI-powered interest tagging
+Real-time classification: True, Likely Fake, Needs Verification.
 
-📅 Dynamic Scheduling – Personalized event agenda with real-time updates
+Credibility scoring based on content + source reliability.
 
-🔔 Live Notifications – Session reminders & announcements
+Multi-modal detection: text, links, images.
 
-🤝 Networking Hub – AI-based participant matching for collaboration
+User dashboard with graphs, trends, and flagged items.
 
-📊 Analytics Dashboard – Engagement tracking & event performance insights
+Continuous learning through user feedback (improves accuracy).
 
-🎮 Gamification – Points, leaderboards & rewards for participation
+Additional Features (future scope):
 
-🌐 Multi-Device Support – Works on mobile, tablet, and desktop
+Social media integration (Twitter, WhatsApp, Telegram bots).
+
+Community-driven verification.
+
+API support for integration into media houses and government fact-check portals.
 
 🛠️ Tech Stack
 
-Frontend: React, Tailwind CSS, shadcn/ui
-Backend: Node.js, Express, JWT Authentication
-Database: MongoDB / Supabase
-AI Integration: AWS Gen AI (PartyRock, Bedrock APIs)
-Deployment: Vercel (Frontend), Render/Supabase (Backend), AWS for AI services
+Frontend: React.js (or Bolt-hosted system).
 
-🗄️ Database Schema
+Backend: Python/Node.js (AI APIs, fact-checking).
 
-Users → {id, name, email, role, preferences}
-Events → {id, title, description, date, schedule, speakers}
-Registrations → {id, user_id, event_id, status}
-Engagement → {id, user_id, event_id, points, leaderboard_rank}
+NLP Models: HuggingFace Transformers, LLM-based context analyzers.
 
-📊 Demo Screens
+Database: MongoDB/MySQL.
 
-✅ Dashboard (organizer & participant views)
-
-✅ Event Page (schedule, speakers, venue info)
-
-✅ Engagement Dashboard (leaderboard, analytics, gamification)
+Hosting: Bolt/Cloud.
 
 🚀 Deployment
 
